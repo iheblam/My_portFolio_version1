@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #06283d;
+  padding: 20px 30px;
+  position: fixed;
+  width: 100%;
+}
+#logo {
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+nav {
+  display: inline-block;
+  text-align: right;
+  width: 90%;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 12px 11px;
+  letter-spacing: 1px;
+  transition: 0.7s ease;
+}
+nav ul li a:hover {
+  background-color: silver;
+  transform: scale(0.9);
+  color: #06283d;
+}
+
+section {
+  padding: 100px 200px;
+}
+.main {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  background: url(../images/iheb2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment:local;
+}
+.main h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.sp {
+
+  font-size: 40px;
+  color: #b1b2ff;
+  margin-top: 10px;
+}
+.icon-btn {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #b1b2ff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+.icon-btn:hover{
+  transform: scale(1.1);
+  background-color:#fff ;
+  
+
+}
+.icon{
+  margin-left: 10px;
+}
+.icon a {
+  display: inline-block;
+  font-size: 28px;
+  margin-top: 20px;
+  padding-right: 12px;
+  text-decoration:none;
+  color:#fff ;
+  transition: 0.7s ease;
+  
+}
+.icon a:hover{
+  transform: scale(1.2);
+  color: #b1b2ff;
+
+}
+
+.title{
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 1px;
+  color:#06283d ;
+  font-weight:700;
+  margin-bottom: 100px;
+  
+}
+.content{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.card{
+  background-color:#fff ;
+  width:340px ;
+  box-shadow: 0 5px 10px rgba(1 1 1 /15%) ;
+  border-radius: 10px;
+  padding: 25px ;
+  margin: 15px; 
+  transition: 0.7s ease;
+}
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(1 1 1 /50%) ;
+}
+.serv-icon{
+  color:#25316D;
+  font-size: 70px;
+  text-align: center;
+}
+.info{
+  text-align: center;
+}
+.info h3{
+  color: #25316D;
+  font-size: 30px;
+  text-align: center;
+  margin: 12px;
+
+
+}
+.ftr{
+  background-color:#06283d ;
+  padding: 15px 10px;
+  margin-top: 300px;
+}
+.ftr-title{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 300;
+
+}
+.ftr-content{
+  display: flex;
+justify-content: center;
+flex-direction: row;
+}
+.copyright{
+  font-size: 15px;
+  color: #fff;
+  margin-right: 20px;
+  letter-spacing: 1px;
+
+}
+.contact{
+  font-size: 15px;
+  color: #fff;
+  margin-right: 20px;
+  letter-spacing: 1px;
+
+}
+#num{
+  text-decoration: underline;
+}
+#ss{
+  padding-left: 10px;
+}
+
